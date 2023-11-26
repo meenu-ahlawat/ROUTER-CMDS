@@ -1,6 +1,11 @@
-Protocols 
-BGP
-OSPF
-ISIS
-EIGRP
-IGRP
+Dynamic Routing Protocols 
+IGP AND EGP : Interior Gateway Protocol and External Gateway Protocol
+IGP: within the autonomous system
+EGP: between the autonomous system
+
+RIP	:IGP
+BGP	:EGP	
+OSPF	:IGP
+ISIS	:IGP
+EIGRP	:IGP
+IGRP	:IGP
