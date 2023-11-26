@@ -9,3 +9,19 @@ OSPF	:IGP
 ISIS	:IGP
 EIGRP	:IGP
 IGRP	:IGP
+
+Dynamic routing protocols are used to learn all the routes, to learn all the paths to reach all the networks and to select the best path to reach all the networks.
+
+further classifications
+
+classful address: address with its default mask
+
+classless address: address with other mask but not with default mask.
+
+classful routing protocol: mask not send as the part of update , they will automatically summarize at classful boundary.(like 10.10.10.0---class A address )
+
+More chances to choose the sub-optimal paths by routing protocols if find two similar classful boundary in the routing table.Problem solved by Classless Routing protocols.
+
+classless routing protocl: mask send as the part of update .
+
+
